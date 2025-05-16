@@ -15,7 +15,7 @@ import UpdateSnippet from './pages/update_snippet';
 
 function App() {
   return (
-     <ClerkProvider publishableKey={process.env.CLERK_KEY} afterSignOutUrl='/'>
+     <ClerkProvider publishableKey="pk_test_Y2l2aWwtbWlubm93LTQ5LmNsZXJrLmFjY291bnRzLmRldiQ" afterSignOutUrl='/'>
       <BrowserRouter>
         <Routes>
           <Route>
